@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{76D883E1-B95C-497C-BB83-CB2F85F87F69}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Janus</RootNamespace>
+    <AssemblyName>Janus</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
+      <HintPath>..\packages\NLog.4.5.2\lib\net45\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Databases\Accounts\AccountRecord.cs" />
+    <Compile Include="Databases\Characters\CharacterRecord.cs" />
+    <Compile Include="Game\Accounts\Account.cs" />
+    <Compile Include="Game\Characters\Character.cs" />
+    <Compile Include="Game\Rooms\Room.cs" />
+    <Compile Include="Handlers\Auth\LoginHandler.cs" />
+    <Compile Include="Handlers\MSN\MsnHandler.cs" />
+    <Compile Include="Handlers\PacketHandlerAttribute.cs" />
+    <Compile Include="Handlers\PacketManager.cs" />
+    <Compile Include="Handlers\Relay\RaceHandler.cs" />
+    <Compile Include="Handlers\World\GameHandler.cs" />
+    <Compile Include="Handlers\World\InventoryHandler.cs" />
+    <Compile Include="Handlers\World\LobbyHandler.cs" />
+    <Compile Include="Handlers\World\TransitionHandler.cs" />
+    <Compile Include="Initialization\InitializationAttribute.cs" />
+    <Compile Include="Initialization\InitializationManager.cs" />
+    <Compile Include="Initialization\InitializationMethod.cs" />
+    <Compile Include="Initialization\InitializationPass.cs" />
+    <Compile Include="Manager\Accounts\AccountManager.cs" />
+    <Compile Include="Manager\Characters\CharacterManager.cs" />
+    <Compile Include="Manager\DatabaseManager.cs" />
+    <Compile Include="Manager\DataManagerAllocator.cs" />
+    <Compile Include="Network\ClientExtension.cs" />
+    <Compile Include="Network\IPacketInterceptor.cs" />
+    <Compile Include="Network\SimpleClient.cs" />
+    <Compile Include="Network\SimpleClientCollection.cs" />
+    <Compile Include="Network\SimpleServer.cs" />
+    <Compile Include="Network\VersionExtended.cs" />
+    <Compile Include="Network\VersionExtensions.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Janus.Core\Janus.Core.csproj">
+      <Project>{781166CA-F5AD-42C0-A67E-175F6D185447}</Project>
+      <Name>Janus.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Janus.ORM\Janus.ORM.csproj">
+      <Project>{1FB5C587-0A9C-4DF8-8D20-61CED7692A47}</Project>
+      <Name>Janus.ORM</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Janus.Protocol\Janus.Protocol.csproj">
+      <Project>{17341D84-A39F-4169-A9C3-FAAF9691CD39}</Project>
+      <Name>Janus.Protocol</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
