@@ -1,0 +1,1204 @@
+-------------Warn at 09/23/2018 21:47:11------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[WorldServer] Received Unknown PacketId : 127.0.0.1 -> 5 
+-------------Warn at 09/23/2018 21:47:11------------- 
+
+-------------Warn at 09/23/2018 21:47:18------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[WorldServer] Received Unknown PacketId : 127.0.0.1 -> 2011 
+-------------Warn at 09/23/2018 21:47:18------------- 
+
+-------------Warn at 09/23/2018 21:47:22------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[WorldServer] Received Unknown PacketId : 127.0.0.1 -> 21 
+-------------Warn at 09/23/2018 21:47:22------------- 
+
+-------------Error at 09/23/2018 21:47:32------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	Message : Une connexion existante a dû être fermée par l’hôte distant 
+ StackTrace :    à System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   à Janus.Server.Network.SimpleClient.ReceiveCallBack(IAsyncResult asyncResult) dans C:\Users\Phantom\Documents\Github\Janus\Janus\Network\SimpleClient.cs:ligne 241 
+-------------Error at 09/23/2018 21:47:32------------- 
+
+-------------Error at 09/23/2018 21:47:32------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	Message : Une connexion existante a dû être fermée par l’hôte distant 
+ StackTrace :    à System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   à Janus.Server.Network.SimpleClient.ReceiveCallBack(IAsyncResult asyncResult) dans C:\Users\Phantom\Documents\Github\Janus\Janus\Network\SimpleClient.cs:ligne 241 
+-------------Error at 09/23/2018 21:47:32------------- 
+
+-------------Warn at 09/23/2018 21:49:04------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[WorldServer] Received Unknown PacketId : 127.0.0.1 -> 1488 
+-------------Warn at 09/23/2018 21:49:04------------- 
+
+-------------Error at 09/23/2018 21:49:09------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	Message : Une connexion existante a dû être fermée par l’hôte distant 
+ StackTrace :    à System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   à Janus.Server.Network.SimpleClient.ReceiveCallBack(IAsyncResult asyncResult) dans C:\Users\Phantom\Documents\Github\Janus\Janus\Network\SimpleClient.cs:ligne 241 
+-------------Error at 09/23/2018 21:49:09------------- 
+
+-------------Warn at 09/23/2018 21:49:46------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[WorldServer] Received Unknown PacketId : 127.0.0.1 -> 39 
+-------------Warn at 09/23/2018 21:49:46------------- 
+
+-------------Warn at 09/23/2018 21:49:46------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[WorldServer] Received Unknown PacketId : 127.0.0.1 -> 6 
+-------------Warn at 09/23/2018 21:49:46------------- 
+
+-------------Warn at 09/23/2018 21:49:56------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[WorldServer] Received Unknown PacketId : 127.0.0.1 -> 2011 
+-------------Warn at 09/23/2018 21:49:56------------- 
+
+-------------Warn at 09/23/2018 21:50:11------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[WorldServer] Received Unknown PacketId : 127.0.0.1 -> 21 
+-------------Warn at 09/23/2018 21:50:11------------- 
+
+-------------Warn at 09/23/2018 21:50:12------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[WorldServer] Received Unknown PacketId : 127.0.0.1 -> 5 
+-------------Warn at 09/23/2018 21:50:12------------- 
+
+-------------Warn at 09/23/2018 21:50:17------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[WorldServer] Received Unknown PacketId : 127.0.0.1 -> 5 
+-------------Warn at 09/23/2018 21:50:17------------- 
+
+-------------Error at 09/23/2018 21:50:29------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	Message : Une connexion existante a dû être fermée par l’hôte distant 
+ StackTrace :    à System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   à Janus.Server.Network.SimpleClient.ReceiveCallBack(IAsyncResult asyncResult) dans C:\Users\Phantom\Documents\Github\Janus\Janus\Network\SimpleClient.cs:ligne 241 
+-------------Error at 09/23/2018 21:50:29------------- 
+
+-------------Error at 09/23/2018 21:50:29------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	Message : Une connexion existante a dû être fermée par l’hôte distant 
+ StackTrace :    à System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   à Janus.Server.Network.SimpleClient.ReceiveCallBack(IAsyncResult asyncResult) dans C:\Users\Phantom\Documents\Github\Janus\Janus\Network\SimpleClient.cs:ligne 241 
+-------------Error at 09/23/2018 21:50:29------------- 
+
+-------------Warn at 09/23/2018 21:51:53------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[WorldServer] Received Unknown PacketId : 127.0.0.1 -> 6 
+-------------Warn at 09/23/2018 21:51:53------------- 
+
+-------------Warn at 09/23/2018 21:53:48------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[WorldServer] Received Unknown PacketId : 127.0.0.1 -> 5 
+-------------Warn at 09/23/2018 21:53:48------------- 
+
+-------------Warn at 09/23/2018 21:54:51------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 21:54:51------------- 
+
+-------------Warn at 09/23/2018 21:54:51------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 21:54:51------------- 
+
+-------------Warn at 09/23/2018 21:54:52------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 21:54:52------------- 
+
+-------------Warn at 09/23/2018 21:54:53------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 21:54:53------------- 
+
+-------------Warn at 09/23/2018 21:54:53------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 21:54:53------------- 
+
+-------------Warn at 09/23/2018 21:54:55------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 21:54:55------------- 
+
+-------------Warn at 09/23/2018 21:54:55------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 21:54:55------------- 
+
+-------------Warn at 09/23/2018 21:54:55------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 21:54:55------------- 
+
+-------------Warn at 09/23/2018 21:54:55------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 21:54:55------------- 
+
+-------------Warn at 09/23/2018 21:54:58------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 21:54:58------------- 
+
+-------------Warn at 09/23/2018 21:54:58------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 21:54:58------------- 
+
+-------------Warn at 09/23/2018 21:55:07------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 21:55:07------------- 
+
+-------------Warn at 09/23/2018 21:55:12------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 21:55:12------------- 
+
+-------------Warn at 09/23/2018 21:55:14------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 21:55:14------------- 
+
+-------------Warn at 09/23/2018 21:55:15------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 21:55:15------------- 
+
+-------------Warn at 09/23/2018 21:55:17------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 21:55:17------------- 
+
+-------------Warn at 09/23/2018 21:55:18------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 21:55:18------------- 
+
+-------------Warn at 09/23/2018 21:55:19------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 21:55:19------------- 
+
+-------------Warn at 09/23/2018 21:55:19------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 21:55:19------------- 
+
+-------------Warn at 09/23/2018 21:55:20------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 21:55:20------------- 
+
+-------------Warn at 09/23/2018 21:55:21------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 21:55:21------------- 
+
+-------------Warn at 09/23/2018 21:55:22------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 21:55:22------------- 
+
+-------------Warn at 09/23/2018 21:55:24------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 21:55:24------------- 
+
+-------------Warn at 09/23/2018 21:55:24------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 21:55:24------------- 
+
+-------------Warn at 09/23/2018 21:55:25------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 21:55:25------------- 
+
+-------------Warn at 09/23/2018 21:55:26------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 21:55:26------------- 
+
+-------------Warn at 09/23/2018 21:55:26------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 21:55:26------------- 
+
+-------------Warn at 09/23/2018 21:55:27------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 21:55:27------------- 
+
+-------------Warn at 09/23/2018 21:55:27------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 21:55:27------------- 
+
+-------------Warn at 09/23/2018 21:55:27------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 21:55:27------------- 
+
+-------------Warn at 09/23/2018 21:55:34------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 21:55:34------------- 
+
+-------------Warn at 09/23/2018 21:55:34------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 21:55:34------------- 
+
+-------------Warn at 09/23/2018 21:55:34------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 21:55:34------------- 
+
+-------------Warn at 09/23/2018 21:55:35------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 21:55:35------------- 
+
+-------------Warn at 09/23/2018 21:55:35------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 21:55:35------------- 
+
+-------------Warn at 09/23/2018 21:55:52------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 21:55:52------------- 
+
+-------------Warn at 09/23/2018 21:55:58------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 21:55:58------------- 
+
+-------------Warn at 09/23/2018 21:55:58------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 21:55:58------------- 
+
+-------------Warn at 09/23/2018 21:55:58------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 21:55:58------------- 
+
+-------------Warn at 09/23/2018 21:56:04------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 21:56:04------------- 
+
+-------------Warn at 09/23/2018 21:56:33------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 21:56:33------------- 
+
+-------------Warn at 09/23/2018 21:56:34------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 21:56:34------------- 
+
+-------------Warn at 09/23/2018 21:56:34------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 21:56:34------------- 
+
+-------------Warn at 09/23/2018 21:56:39------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 21:56:39------------- 
+
+-------------Warn at 09/23/2018 21:56:49------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 21:56:49------------- 
+
+-------------Warn at 09/23/2018 21:56:53------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 21:56:53------------- 
+
+-------------Warn at 09/23/2018 21:56:59------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 21:56:59------------- 
+
+-------------Warn at 09/23/2018 21:57:04------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 21:57:04------------- 
+
+-------------Warn at 09/23/2018 21:57:09------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 21:57:09------------- 
+
+-------------Warn at 09/23/2018 21:57:16------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 21:57:16------------- 
+
+-------------Warn at 09/23/2018 21:57:23------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 21:57:23------------- 
+
+-------------Warn at 09/23/2018 21:57:37------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 21:57:37------------- 
+
+-------------Warn at 09/23/2018 21:57:40------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 21:57:40------------- 
+
+-------------Warn at 09/23/2018 21:57:41------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 21:57:41------------- 
+
+-------------Warn at 09/23/2018 21:57:41------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 21:57:41------------- 
+
+-------------Warn at 09/23/2018 21:57:42------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 21:57:42------------- 
+
+-------------Warn at 09/23/2018 21:57:43------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 21:57:43------------- 
+
+-------------Warn at 09/23/2018 21:57:43------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 21:57:43------------- 
+
+-------------Warn at 09/23/2018 21:57:44------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 21:57:44------------- 
+
+-------------Warn at 09/23/2018 21:57:45------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 21:57:45------------- 
+
+-------------Warn at 09/23/2018 21:57:46------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 21:57:46------------- 
+
+-------------Warn at 09/23/2018 21:57:47------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 21:57:47------------- 
+
+-------------Warn at 09/23/2018 21:57:47------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 21:57:47------------- 
+
+-------------Warn at 09/23/2018 21:57:48------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 21:57:48------------- 
+
+-------------Warn at 09/23/2018 21:58:30------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 21:58:30------------- 
+
+-------------Warn at 09/23/2018 21:59:26------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6006 
+-------------Warn at 09/23/2018 21:59:26------------- 
+
+-------------Warn at 09/23/2018 21:59:30------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[WorldServer] Received Unknown PacketId : 127.0.0.1 -> 28 
+-------------Warn at 09/23/2018 21:59:30------------- 
+
+-------------Warn at 09/23/2018 21:59:30------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[WorldServer] Received Unknown PacketId : 127.0.0.1 -> 8 
+-------------Warn at 09/23/2018 21:59:30------------- 
+
+-------------Warn at 09/23/2018 22:00:10------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:00:10------------- 
+
+-------------Warn at 09/23/2018 22:00:12------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:00:12------------- 
+
+-------------Warn at 09/23/2018 22:00:12------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:00:12------------- 
+
+-------------Warn at 09/23/2018 22:00:12------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:00:12------------- 
+
+-------------Warn at 09/23/2018 22:00:17------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:00:17------------- 
+
+-------------Warn at 09/23/2018 22:00:17------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:00:17------------- 
+
+-------------Warn at 09/23/2018 22:00:18------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:00:18------------- 
+
+-------------Warn at 09/23/2018 22:00:19------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:00:19------------- 
+
+-------------Warn at 09/23/2018 22:00:19------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:00:19------------- 
+
+-------------Warn at 09/23/2018 22:00:20------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:00:20------------- 
+
+-------------Warn at 09/23/2018 22:00:21------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:00:21------------- 
+
+-------------Warn at 09/23/2018 22:00:21------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:00:21------------- 
+
+-------------Warn at 09/23/2018 22:00:22------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:00:22------------- 
+
+-------------Warn at 09/23/2018 22:00:31------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:00:31------------- 
+
+-------------Warn at 09/23/2018 22:00:37------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:00:37------------- 
+
+-------------Warn at 09/23/2018 22:00:48------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:00:48------------- 
+
+-------------Warn at 09/23/2018 22:01:07------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:01:07------------- 
+
+-------------Warn at 09/23/2018 22:01:25------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:01:25------------- 
+
+-------------Warn at 09/23/2018 22:01:31------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:01:31------------- 
+
+-------------Warn at 09/23/2018 22:01:32------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:01:32------------- 
+
+-------------Warn at 09/23/2018 22:01:37------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:01:37------------- 
+
+-------------Warn at 09/23/2018 22:01:37------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:01:37------------- 
+
+-------------Warn at 09/23/2018 22:01:37------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:01:37------------- 
+
+-------------Warn at 09/23/2018 22:01:38------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:01:38------------- 
+
+-------------Warn at 09/23/2018 22:01:40------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:01:40------------- 
+
+-------------Warn at 09/23/2018 22:01:40------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:01:40------------- 
+
+-------------Warn at 09/23/2018 22:01:40------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:01:40------------- 
+
+-------------Warn at 09/23/2018 22:01:44------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:01:44------------- 
+
+-------------Warn at 09/23/2018 22:01:44------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:01:44------------- 
+
+-------------Warn at 09/23/2018 22:01:54------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:01:54------------- 
+
+-------------Warn at 09/23/2018 22:02:01------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:02:01------------- 
+
+-------------Warn at 09/23/2018 22:02:09------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[WorldServer] Received Unknown PacketId : 127.0.0.1 -> 9 
+-------------Warn at 09/23/2018 22:02:09------------- 
+
+-------------Warn at 09/23/2018 22:02:09------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[WorldServer] Received Unknown PacketId : 127.0.0.1 -> 8 
+-------------Warn at 09/23/2018 22:02:09------------- 
+
+-------------Warn at 09/23/2018 22:02:12------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:02:12------------- 
+
+-------------Warn at 09/23/2018 22:02:13------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:02:13------------- 
+
+-------------Warn at 09/23/2018 22:02:14------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:02:14------------- 
+
+-------------Warn at 09/23/2018 22:02:14------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:02:14------------- 
+
+-------------Warn at 09/23/2018 22:02:15------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:02:15------------- 
+
+-------------Warn at 09/23/2018 22:02:15------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:02:15------------- 
+
+-------------Warn at 09/23/2018 22:02:16------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:02:16------------- 
+
+-------------Warn at 09/23/2018 22:02:20------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:02:20------------- 
+
+-------------Warn at 09/23/2018 22:02:28------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:02:28------------- 
+
+-------------Warn at 09/23/2018 22:02:47------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:02:47------------- 
+
+-------------Warn at 09/23/2018 22:03:01------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:03:01------------- 
+
+-------------Warn at 09/23/2018 22:03:01------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:03:01------------- 
+
+-------------Warn at 09/23/2018 22:03:02------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:03:02------------- 
+
+-------------Warn at 09/23/2018 22:03:03------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:03:03------------- 
+
+-------------Warn at 09/23/2018 22:03:03------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:03:03------------- 
+
+-------------Warn at 09/23/2018 22:03:08------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:03:08------------- 
+
+-------------Warn at 09/23/2018 22:03:21------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:03:21------------- 
+
+-------------Warn at 09/23/2018 22:03:25------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:03:25------------- 
+
+-------------Warn at 09/23/2018 22:03:25------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:03:25------------- 
+
+-------------Warn at 09/23/2018 22:03:31------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:03:31------------- 
+
+-------------Warn at 09/23/2018 22:03:33------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:03:33------------- 
+
+-------------Warn at 09/23/2018 22:03:34------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:03:34------------- 
+
+-------------Warn at 09/23/2018 22:03:41------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:03:41------------- 
+
+-------------Warn at 09/23/2018 22:03:42------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:03:42------------- 
+
+-------------Warn at 09/23/2018 22:03:42------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:03:42------------- 
+
+-------------Warn at 09/23/2018 22:03:42------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:03:42------------- 
+
+-------------Warn at 09/23/2018 22:03:43------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:03:43------------- 
+
+-------------Warn at 09/23/2018 22:03:47------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:03:47------------- 
+
+-------------Warn at 09/23/2018 22:03:53------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:03:53------------- 
+
+-------------Warn at 09/23/2018 22:03:57------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:03:57------------- 
+
+-------------Warn at 09/23/2018 22:04:00------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:04:00------------- 
+
+-------------Warn at 09/23/2018 22:04:01------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:04:01------------- 
+
+-------------Warn at 09/23/2018 22:04:01------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:04:01------------- 
+
+-------------Warn at 09/23/2018 22:04:01------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:04:01------------- 
+
+-------------Warn at 09/23/2018 22:04:01------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:04:01------------- 
+
+-------------Warn at 09/23/2018 22:04:02------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:04:02------------- 
+
+-------------Warn at 09/23/2018 22:04:02------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:04:02------------- 
+
+-------------Warn at 09/23/2018 22:04:03------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:04:03------------- 
+
+-------------Warn at 09/23/2018 22:04:03------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:04:03------------- 
+
+-------------Warn at 09/23/2018 22:04:26------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6006 
+-------------Warn at 09/23/2018 22:04:26------------- 
+
+-------------Warn at 09/23/2018 22:04:29------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[WorldServer] Received Unknown PacketId : 127.0.0.1 -> 13 
+-------------Warn at 09/23/2018 22:04:29------------- 
+
+-------------Warn at 09/23/2018 22:04:46------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[WorldServer] Received Unknown PacketId : 127.0.0.1 -> 1919 
+-------------Warn at 09/23/2018 22:04:46------------- 
+
+-------------Warn at 09/23/2018 22:04:46------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[WorldServer] Received Unknown PacketId : 127.0.0.1 -> 0 
+-------------Warn at 09/23/2018 22:04:46------------- 
+
+-------------Warn at 09/23/2018 22:05:28------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[WorldServer] Received Unknown PacketId : 127.0.0.1 -> 5 
+-------------Warn at 09/23/2018 22:05:28------------- 
+
+-------------Warn at 09/23/2018 22:06:38------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[WorldServer] Received Unknown PacketId : 127.0.0.1 -> 5 
+-------------Warn at 09/23/2018 22:06:38------------- 
+
+-------------Warn at 09/23/2018 22:09:28------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:09:28------------- 
+
+-------------Warn at 09/23/2018 22:09:30------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:09:30------------- 
+
+-------------Warn at 09/23/2018 22:09:30------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:09:30------------- 
+
+-------------Warn at 09/23/2018 22:09:31------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:09:31------------- 
+
+-------------Warn at 09/23/2018 22:09:46------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:09:46------------- 
+
+-------------Warn at 09/23/2018 22:09:48------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:09:48------------- 
+
+-------------Warn at 09/23/2018 22:09:48------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:09:48------------- 
+
+-------------Warn at 09/23/2018 22:09:48------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:09:48------------- 
+
+-------------Warn at 09/23/2018 22:09:48------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:09:48------------- 
+
+-------------Warn at 09/23/2018 22:09:48------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:09:48------------- 
+
+-------------Warn at 09/23/2018 22:09:49------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:09:49------------- 
+
+-------------Warn at 09/23/2018 22:09:49------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:09:49------------- 
+
+-------------Warn at 09/23/2018 22:09:54------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:09:54------------- 
+
+-------------Warn at 09/23/2018 22:09:54------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:09:54------------- 
+
+-------------Warn at 09/23/2018 22:09:54------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[WorldServer] Received Unknown PacketId : 127.0.0.1 -> 5 
+-------------Warn at 09/23/2018 22:09:54------------- 
+
+-------------Warn at 09/23/2018 22:09:56------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:09:56------------- 
+
+-------------Warn at 09/23/2018 22:12:04------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:12:04------------- 
+
+-------------Warn at 09/23/2018 22:12:05------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:12:05------------- 
+
+-------------Warn at 09/23/2018 22:12:05------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:12:05------------- 
+
+-------------Warn at 09/23/2018 22:12:06------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:12:06------------- 
+
+-------------Warn at 09/23/2018 22:12:08------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:12:08------------- 
+
+-------------Warn at 09/23/2018 22:12:08------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:12:08------------- 
+
+-------------Warn at 09/23/2018 22:12:09------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:12:09------------- 
+
+-------------Warn at 09/23/2018 22:12:10------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:12:10------------- 
+
+-------------Warn at 09/23/2018 22:12:11------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:12:11------------- 
+
+-------------Warn at 09/23/2018 22:12:12------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:12:12------------- 
+
+-------------Warn at 09/23/2018 22:12:25------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[WorldServer] Received Unknown PacketId : 127.0.0.1 -> 1488 
+-------------Warn at 09/23/2018 22:12:25------------- 
+
+-------------Warn at 09/23/2018 22:12:25------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:12:25------------- 
+
+-------------Warn at 09/23/2018 22:12:26------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:12:26------------- 
+
+-------------Warn at 09/23/2018 22:12:26------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:12:26------------- 
+
+-------------Warn at 09/23/2018 22:12:29------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:12:29------------- 
+
+-------------Warn at 09/23/2018 22:12:43------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:12:43------------- 
+
+-------------Warn at 09/23/2018 22:12:43------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:12:43------------- 
+
+-------------Warn at 09/23/2018 22:12:43------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:12:43------------- 
+
+-------------Warn at 09/23/2018 22:12:54------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:12:54------------- 
+
+-------------Warn at 09/23/2018 22:12:55------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:12:55------------- 
+
+-------------Warn at 09/23/2018 22:12:55------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:12:55------------- 
+
+-------------Warn at 09/23/2018 22:13:09------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:13:09------------- 
+
+-------------Warn at 09/23/2018 22:13:32------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:13:32------------- 
+
+-------------Warn at 09/23/2018 22:13:43------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:13:43------------- 
+
+-------------Warn at 09/23/2018 22:13:43------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:13:43------------- 
+
+-------------Warn at 09/23/2018 22:14:00------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:14:00------------- 
+
+-------------Warn at 09/23/2018 22:14:01------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:14:01------------- 
+
+-------------Warn at 09/23/2018 22:14:02------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:14:02------------- 
+
+-------------Warn at 09/23/2018 22:14:02------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:14:02------------- 
+
+-------------Warn at 09/23/2018 22:14:05------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[WorldServer] Received Unknown PacketId : 127.0.0.1 -> 1488 
+-------------Warn at 09/23/2018 22:14:05------------- 
+
+-------------Warn at 09/23/2018 22:14:15------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:14:15------------- 
+
+-------------Warn at 09/23/2018 22:14:16------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:14:16------------- 
+
+-------------Warn at 09/23/2018 22:14:16------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:14:16------------- 
+
+-------------Warn at 09/23/2018 22:14:17------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:14:17------------- 
+
+-------------Warn at 09/23/2018 22:14:19------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:14:19------------- 
+
+-------------Warn at 09/23/2018 22:14:20------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:14:20------------- 
+
+-------------Warn at 09/23/2018 22:14:21------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:14:21------------- 
+
+-------------Warn at 09/23/2018 22:15:04------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:15:04------------- 
+
+-------------Warn at 09/23/2018 22:15:13------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:15:13------------- 
+
+-------------Warn at 09/23/2018 22:15:39------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:15:39------------- 
+
+-------------Warn at 09/23/2018 22:15:41------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:15:41------------- 
+
+-------------Warn at 09/23/2018 22:15:59------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:15:59------------- 
+
+-------------Warn at 09/23/2018 22:16:00------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:16:00------------- 
+
+-------------Warn at 09/23/2018 22:16:01------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:16:01------------- 
+
+-------------Warn at 09/23/2018 22:16:06------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:16:06------------- 
+
+-------------Warn at 09/23/2018 22:16:17------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:16:17------------- 
+
+-------------Warn at 09/23/2018 22:16:17------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:16:17------------- 
+
+-------------Warn at 09/23/2018 22:16:18------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:16:18------------- 
+
+-------------Warn at 09/23/2018 22:16:19------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:16:19------------- 
+
+-------------Warn at 09/23/2018 22:17:07------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[WorldServer] Received Unknown PacketId : 127.0.0.1 -> 7 
+-------------Warn at 09/23/2018 22:17:07------------- 
+
+-------------Warn at 09/23/2018 22:17:51------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:17:51------------- 
+
+-------------Warn at 09/23/2018 22:17:51------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:17:51------------- 
+
+-------------Warn at 09/23/2018 22:17:52------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:17:52------------- 
+
+-------------Warn at 09/23/2018 22:17:52------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:17:52------------- 
+
+-------------Warn at 09/23/2018 22:17:53------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:17:53------------- 
+
+-------------Warn at 09/23/2018 22:17:53------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6008 
+-------------Warn at 09/23/2018 22:17:53------------- 
+
+-------------Warn at 09/23/2018 22:18:04------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6006 
+-------------Warn at 09/23/2018 22:18:04------------- 
+
+-------------Error at 09/23/2018 22:18:06------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	Message : Une connexion existante a dû être fermée par l’hôte distant 
+ StackTrace :    à System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   à Janus.Server.Network.SimpleClient.ReceiveCallBack(IAsyncResult asyncResult) dans C:\Users\Phantom\Documents\Github\Janus\Janus\Network\SimpleClient.cs:ligne 241 
+-------------Error at 09/23/2018 22:18:06------------- 
+
+-------------Error at 09/23/2018 22:18:06------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	Message : Une connexion existante a dû être fermée par l’hôte distant 
+ StackTrace :    à System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   à Janus.Server.Network.SimpleClient.ReceiveCallBack(IAsyncResult asyncResult) dans C:\Users\Phantom\Documents\Github\Janus\Janus\Network\SimpleClient.cs:ligne 241 
+-------------Error at 09/23/2018 22:18:06------------- 
+

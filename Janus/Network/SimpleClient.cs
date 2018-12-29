@@ -210,7 +210,7 @@ namespace Janus.Server.Network
                 Runing = false;
                 Socket client = (Socket)asyncResult.AsyncState;
 
-                this.Character?.LogOut();
+                this.Character?.LogOut(this);
 
                 client.EndDisconnect(asyncResult);
                 OnDisconnected(new DisconnectedEventArgs(Socket));

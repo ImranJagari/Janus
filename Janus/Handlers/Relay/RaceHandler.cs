@@ -31,11 +31,12 @@ namespace Janus.Handlers.Relay
             client.Account = account;
             Character leader = client.Character.RoomConnected.PlayersConnected.FirstOrDefault(x => x.IsLeader);
 
-            leader.RelayClient = client;
+            
             //client.Send(new NM_SC_LOGIN2());
 
             if (leader != null)
             {
+                leader.RelayClient = client;
                 client.Send(new NM_SC_LOGIN(leader.Client.IP, 5000));
             }
             else

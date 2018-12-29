@@ -1,0 +1,17 @@
+[Info] <04/25/2018 17:40:57> Initializing Configuration !
+[Info] <04/25/2018 17:41:01> Config file created !
+[Info] <04/25/2018 17:41:01> Loading protocol messages !
+[Info] <04/25/2018 17:41:01> Loading handlers !
+[Info] <04/25/2018 17:41:01> Loading Database !
+[Info] <04/25/2018 17:42:55> Initializing Configuration !
+[Info] <04/25/2018 17:42:56> Loading protocol messages !
+[Info] <04/25/2018 17:42:56> Loading handlers !
+[Info] <04/25/2018 17:42:56> Loading Database !
+[Info] <04/25/2018 17:42:56> Loading database features !
+[Warn] <04/25/2018 17:43:56> [WorldServer] Received Unknown PacketId : 127.0.0.1 -> 2011
+[Warn] <04/25/2018 17:43:58> [WorldServer] Received Unknown PacketId : 127.0.0.1 -> 5599
+[Warn] <04/25/2018 17:43:58> [WorldServer] Received Unknown PacketId : 127.0.0.1 -> 2109
+[Warn] <04/25/2018 17:44:00> [WorldServer] Received Unknown PacketId : 127.0.0.1 -> 5
+[Warn] <04/25/2018 17:44:01> [WorldServer] Received Unknown PacketId : 127.0.0.1 -> 21
+[Warn] <04/25/2018 17:44:05> [WorldServer] Received Unknown PacketId : 127.0.0.1 -> 21
+[Warn] <04/25/2018 17:44:11> [WorldServer] Received Unknown PacketId : 127.0.0.1 -> 5599

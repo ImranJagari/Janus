@@ -15,16 +15,16 @@ namespace Janus.Protocol.Types
         public int characterType;
         public byte psb_bottom;//maybe the bottom clothes
         //14 bytes vide
-        public int unk2 = 1;
+        public int unk2 = 0;
 
-        public int unk3 = 2;
-        public int unk4 = 3;
-        public int unk5 = 4;
-        public int unk6 = 5;
-        public int unk7 = 6;
-        public int unk8 = 7;
-        public int unk9 = 8;
-        public int unk10 = 9;
+        public int unk3 = 0;
+        public int unk4 = 0;
+        public int unk5 = 0;
+        public int unk6 = 0;
+        public int unk7 = 0;
+        public int unk8 = 0;
+        public int unk9 = 0;
+        public int unk10 = 0;
 
         public ListCharacterInfoType(byte psb_top, int characterType, byte psb_bottom)
         {

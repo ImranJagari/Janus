@@ -127,8 +127,7 @@ namespace Janus.Handlers.World
         [PacketHandler(BS_CS_ENTER_ROOM.Id)]
         public static void HandleBS_CS_ENTER_ROOM(SimpleClient client, BS_CS_ENTER_ROOM message)
         {
-            Room room = null;
-            SimpleServer.Rooms.TryGetValue(message.roomId, out room);
+            SimpleServer.Rooms.TryGetValue(message.roomId, out Room room);
 
             if(room != null)
             {
@@ -168,7 +167,7 @@ namespace Janus.Handlers.World
                     client.Send(new BM_SC_SELECT_MAP());
                     client.Send(new BM_SC_MAP_INFO(room.MapId));
 
-                    //client.Send(new BM_SC_ROOM_INFO2(room.Name, room.MapId, room.MapId, 1));
+                    client.Send(new BM_SC_ROOM_INFO2(room.Name, room.MapId, room.MapId, 1));
                    
                 }
                 else
@@ -188,7 +187,7 @@ namespace Janus.Handlers.World
                         room.GetPosition(client.Character), (byte)client.Character.Type,
                          client.Character.IsLeader ? (byte)UserEntryEnum.USER_LEADER : (byte)UserEntryEnum.USER_ENTER,
                         (byte)client.Account.Role, room.GetPosition(client.Character),
-                         client.Character.IsReady ? (byte)1 : (byte)0, (byte)UserStatusEnum.USER_NORMAL, 1));
+                         client.Character.IsReady ? (byte)1 : (byte)0, (byte)UserStatusEnum.USER_NORMAL, 0));
 
         }
         [PacketHandler(BS_CS_START_GAME.Id)]
@@ -254,7 +253,7 @@ namespace Janus.Handlers.World
         [PacketHandler(BS_CS_IP_CONNECT.Id)]
         public static void HandleBS_CS_IP_CONNECT(SimpleClient client, BS_CS_IP_CONNECT message)
         {
-            client.Send(new BM_SC_IP_CONNECT(client.IP, 5000));
+            client.Send(new BM_SC_IP_CONNECT(client.IP, (short)(5000 + client.Account.Id)));
         }
         [PacketHandler(BS_CS_LEAVE_ROOM.Id)]
         public static void HandleBS_CS_LEAVE_ROOM(SimpleClient client, BS_CS_LEAVE_ROOM message)
@@ -264,26 +263,32 @@ namespace Janus.Handlers.World
         [PacketHandler(BS_CS_END_GAME.Id)]//2191
         public static void HandleBS_CS_END_GAME(SimpleClient client, BS_CS_END_GAME message)
         {
-            //client.Send(new BM_SC_END_GAME());
+            client.Send(new BM_SC_END_GAME());
 
             Thread.Sleep(5000);
-            client.Send(new BM_SC_LEAVE_ROOM());
+            //client.Send(new BM_SC_LEAVE_ROOM());
             //Thread.Sleep(3000);
-            //var room = client.Character.RoomConnected;
+            var room = client.Character.RoomConnected;
+            if (room != null)
+            {
+                client.Character.RoomConnected = room;
+                client.Send(new BM_SC_ENTER_ROOM("SUCCESS\0", SimpleServer.RelayHost, SimpleServer.RelayPort, 0,
+                    room.GetPosition(client.Character), 0, 0, 5000));
 
-            //client.Send(new BM_SC_ENTER_ROOM("SUCCESS\0", SimpleServer.RelayHost, SimpleServer.RelayPort, 0, room.GetPosition(client.Character), 0, 0, 5000));
+                room.Clients.Send(new BM_SC_USER_INFO(client.IP, client.Character.Name,
+                    room.GetPosition(client.Character), (byte) client.Character.Type,
+                    client.Character.IsLeader ? (byte) UserEntryEnum.USER_LEADER : (byte) UserEntryEnum.USER_ENTER,
+                    (byte) client.Account.Role,
+                    client.Character.IsLeader ? (byte) 1 : client.Character.IsReady ? (byte) 1 : (byte) 0,
+                    room.GetPosition(client.Character), (byte) UserStatusEnum.USER_NORMAL, 1));
 
-            //room.Clients.Send(new BM_SC_USER_INFO(client.IP, client.Character.Name,
-            //     room.GetPosition(client.Character), (byte)client.Character.Type,
-            //      client.Character.IsLeader ? (byte)UserEntryEnum.USER_LEADER : (byte)UserEntryEnum.USER_ENTER,
-            //     (byte)client.Account.Role, client.Character.IsLeader ? (byte)1 : client.Character.IsReady ? (byte)1 : (byte)0,
-            //     room.GetPosition(client.Character), (byte)UserStatusEnum.USER_NORMAL, 1));
-
-            //room.Clients.ForEach(entry => client.Send(new BM_SC_USER_INFO(entry.IP, entry.Character.Name,
-            //    room.GetPosition(entry.Character), (byte)entry.Character.Type,
-            //     entry.Character.IsLeader ? (byte)UserEntryEnum.USER_LEADER : (byte)UserEntryEnum.USER_ENTER,
-            //    (byte)entry.Account.Role, room.GetPosition(entry.Character),
-            //     entry.Character.IsLeader ? (byte)1 : entry.Character.IsReady ? (byte)1 : (byte)0, (byte)UserStatusEnum.USER_NORMAL, 1)));
+                room.Clients.ForEach(entry => client.Send(new BM_SC_USER_INFO(entry.IP, entry.Character.Name,
+                    room.GetPosition(entry.Character), (byte) entry.Character.Type,
+                    entry.Character.IsLeader ? (byte) UserEntryEnum.USER_LEADER : (byte) UserEntryEnum.USER_ENTER,
+                    (byte) entry.Account.Role, room.GetPosition(entry.Character),
+                    entry.Character.IsLeader ? (byte) 1 : entry.Character.IsReady ? (byte) 1 : (byte) 0,
+                    (byte) UserStatusEnum.USER_NORMAL, 1)));
+            }
         }
         [PacketHandler(BS_CS_FINISH_LAP.Id)]
         public static void HandleBS_CS_FINISH_LAP(SimpleClient client, BS_CS_FINISH_LAP message)

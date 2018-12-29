@@ -226,9 +226,12 @@ namespace Janus.Game.Characters
             set;
         }
 
-        public void LogOut()
+        public void LogOut(SimpleClient client)
         {
-            RoomConnected?.RemovePlayer(this);
+            if (client != RelayClient)
+                RoomConnected?.RemovePlayer(this);
+            else
+                RelayClient = null;
         }
 
         public ListCharacterInfoType GetListCharacterInfoType()
@@ -237,7 +240,7 @@ namespace Janus.Game.Characters
         }
         public ListCharacterInfoType2 GetListCharacterInfoType2()
         {
-            return new ListCharacterInfoType2(1, Type, 1);
+            return new ListCharacterInfoType2(0, Type, 0);
         }
         public PlayerGameInfoType GetPlayerGameInfoType()
         {
