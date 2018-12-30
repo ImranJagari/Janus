@@ -70,7 +70,7 @@ namespace Janus.Handlers.Relay
 
             client.Send(new NM_SC_GAME_READY(client.Account.Id));
             Thread.Sleep(5000);
-            client.Send(new NM_SC_START_GAME(DateTime.Now.GetUnixTimeStamp(), DateTime.Now.AddSeconds(4).GetUnixTimeStamp()));
+            client.Send(new NM_SC_START_GAME(DateTime.Now.GetUnixTimeStamp(), DateTime.Now.AddSeconds(300).GetUnixTimeStamp()));
         }
     }
 }

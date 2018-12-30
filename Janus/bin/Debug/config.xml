@@ -8,19 +8,19 @@
           <!--Editable as Running : False-->
           <Variable name="AuthHost" serialized="false">127.0.0.1</Variable>
           <!--Editable as Running : False-->
-          <Variable name="AuthPort" serialized="false">82</Variable>
+          <Variable name="AuthPort" serialized="false">442</Variable>
           <!--Editable as Running : False-->
           <Variable name="WorldHost" serialized="false">127.0.0.1</Variable>
           <!--Editable as Running : False-->
-          <Variable name="WorldPort" serialized="false">83</Variable>
+          <Variable name="WorldPort" serialized="false">590</Variable>
           <!--Editable as Running : False-->
           <Variable name="MsgHost" serialized="false">127.0.0.1</Variable>
           <!--Editable as Running : False-->
-          <Variable name="MsgPort" serialized="false">84</Variable>
+          <Variable name="MsgPort" serialized="false">569</Variable>
           <!--Editable as Running : False-->
           <Variable name="LobbyHost" serialized="false">127.0.0.1</Variable>
           <!--Editable as Running : False-->
-          <Variable name="LobbyPort" serialized="false">85</Variable>
+          <Variable name="LobbyPort" serialized="false">546</Variable>
           <!--Editable as Running : False-->
           <Variable name="RelayHost" serialized="false">127.0.0.1</Variable>
           <!--Editable as Running : False-->
@@ -28,7 +28,7 @@
           <!--Editable as Running : False-->
           <Variable name="P2PHost" serialized="false">127.0.0.1</Variable>
           <!--Editable as Running : False-->
-          <Variable name="P2PPort" serialized="false">5000</Variable>
+          <Variable name="P2PPort" serialized="false">90</Variable>
           <!--Editable as Running : False-->
           <Variable name="DatabaseConfiguration" serialized="true">
             <DatabaseConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">

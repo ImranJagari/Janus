@@ -11,7 +11,6 @@ D:\Projects\Github\Janus\Janus.Core\bin\Debug\Janus.Core.dll
 D:\Projects\Github\Janus\Janus.Core\bin\Debug\Janus.Core.pdb
 D:\Projects\Github\Janus\Janus.Core\bin\Debug\NLog.dll
 D:\Projects\Github\Janus\Janus.Core\bin\Debug\NLog.xml
-D:\Projects\Github\Janus\Janus.Core\obj\Debug\Janus.Core.csprojAssemblyReference.cache
 D:\Projects\Github\Janus\Janus.Core\obj\Debug\Janus.Core.csproj.CoreCompileInputs.cache
 D:\Projects\Github\Janus\Janus.Core\obj\Debug\Janus.Core.csproj.CopyComplete
 D:\Projects\Github\Janus\Janus.Core\obj\Debug\Janus.Core.dll

@@ -14,7 +14,7 @@ namespace Janus.Game.Rooms
     {
         public SimpleClientCollection Clients = new SimpleClientCollection();
         public List<Character> PlayersConnected = new List<Character>();
-        public Room(int id, string name, string password, int maxPlayers, RoomStateEnum state, RankEnum minRank, RoomModeEnum mode)
+        public Room(int id, string name, string password, int maxPlayers, RoomStateEnum state, RankEnum minRank, RoomModeListEnum mode)
         {
             Id = id;
             Name = name;
@@ -31,7 +31,7 @@ namespace Janus.Game.Rooms
         public int MaxPlayers { get; set; }
         public RoomStateEnum State { get; set; }
         public RankEnum MinRank { get; set; }
-        public RoomModeEnum Mode { get; set; }
+        public RoomModeListEnum Mode { get; set; }
         public short MapId { get; set; }
 
         public bool AddPlayer(Character character)

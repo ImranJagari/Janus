@@ -1,0 +1,35 @@
+[Warn] <12/31/2018 00:03:39> [WorldServer] Received Unknown PacketId : 127.0.0.1 -> 5
+[Warn] <12/31/2018 00:03:42> [RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6006
+[Info] <12/31/2018 00:03:51> Initializing Configuration !
+[Info] <12/31/2018 00:03:52> Loading protocol messages !
+[Info] <12/31/2018 00:03:52> Loading handlers !
+[Info] <12/31/2018 00:03:52> Loading Database !
+[Info] <12/31/2018 00:03:53> Loading database features !
+[Warn] <12/31/2018 00:04:24> [WorldServer] Received Unknown PacketId : 127.0.0.1 -> 5
+[Warn] <12/31/2018 00:04:26> [WorldServer] Received Unknown PacketId : 127.0.0.1 -> 6
+[Warn] <12/31/2018 00:04:26> [WorldServer] Received Unknown PacketId : 127.0.0.1 -> 6
+[Warn] <12/31/2018 00:04:31> [WorldServer] Received Unknown PacketId : 127.0.0.1 -> 13
+[Warn] <12/31/2018 00:04:31> [WorldServer] Received Unknown PacketId : 127.0.0.1 -> 6
+[Warn] <12/31/2018 00:04:37> [RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6006
+[Warn] <12/31/2018 00:04:40> [WorldServer] Received Unknown PacketId : 127.0.0.1 -> 3583
+[Warn] <12/31/2018 00:05:25> [WorldServer] Received Unknown PacketId : 127.0.0.1 -> 5
+[Warn] <12/31/2018 00:05:52> [WorldServer] Received Unknown PacketId : 127.0.0.1 -> 6
+[Warn] <12/31/2018 00:06:00> [WorldServer] Received Unknown PacketId : 127.0.0.1 -> 1592
+[Warn] <12/31/2018 00:06:02> [WorldServer] Received Unknown PacketId : 127.0.0.1 -> 1409
+[Warn] <12/31/2018 00:06:46> [WorldServer] Received Unknown PacketId : 127.0.0.1 -> 5
+[Warn] <12/31/2018 00:06:54> [RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6006
+[Warn] <12/31/2018 00:07:12> [WorldServer] Received Unknown PacketId : 127.0.0.1 -> 13
+[Warn] <12/31/2018 00:08:20> [RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6006
+[Warn] <12/31/2018 00:08:36> [RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6006
+[Warn] <12/31/2018 00:09:07> [WorldServer] Received Unknown PacketId : 127.0.0.1 -> 5
+[Warn] <12/31/2018 00:10:18> [WorldServer] Received Unknown PacketId : 127.0.0.1 -> 8
+[Warn] <12/31/2018 00:16:52> [WorldServer] Received Unknown PacketId : 127.0.0.1 -> 11
+[Warn] <12/31/2018 00:16:52> [WorldServer] Received Unknown PacketId : 127.0.0.1 -> 5
+[Warn] <12/31/2018 00:17:17> [RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6006
+[Warn] <12/31/2018 00:17:19> [WorldServer] Received Unknown PacketId : 127.0.0.1 -> 1759
+[Warn] <12/31/2018 00:17:24> [RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6006
+[Warn] <12/31/2018 00:17:37> [RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6006
+[Warn] <12/31/2018 00:17:37> [WorldServer] Received Unknown PacketId : 127.0.0.1 -> 2825
+[Warn] <12/31/2018 00:18:09> [RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6006
+[Warn] <12/31/2018 00:18:11> [WorldServer] Received Unknown PacketId : 127.0.0.1 -> 11
+[Warn] <12/31/2018 00:18:11> [WorldServer] Received Unknown PacketId : 127.0.0.1 -> 10

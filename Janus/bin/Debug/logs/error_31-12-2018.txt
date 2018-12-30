@@ -1,0 +1,178 @@
+-------------Warn at 12/31/2018 00:03:39------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[WorldServer] Received Unknown PacketId : 127.0.0.1 -> 5 
+-------------Warn at 12/31/2018 00:03:39------------- 
+
+-------------Warn at 12/31/2018 00:03:42------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6006 
+-------------Warn at 12/31/2018 00:03:42------------- 
+
+-------------Error at 12/31/2018 00:03:43------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	Message : Une connexion existante a d? ¨ºtre ferm¨¦e par l¡¯h?te distant 
+ StackTrace :    ¨¤ System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   ¨¤ Janus.Server.Network.SimpleClient.ReceiveCallBack(IAsyncResult asyncResult) 
+-------------Error at 12/31/2018 00:03:43------------- 
+
+-------------Error at 12/31/2018 00:03:43------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	Message : Une connexion existante a d? ¨ºtre ferm¨¦e par l¡¯h?te distant 
+ StackTrace :    ¨¤ System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   ¨¤ Janus.Server.Network.SimpleClient.ReceiveCallBack(IAsyncResult asyncResult) 
+-------------Error at 12/31/2018 00:03:43------------- 
+
+-------------Warn at 12/31/2018 00:04:24------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[WorldServer] Received Unknown PacketId : 127.0.0.1 -> 5 
+-------------Warn at 12/31/2018 00:04:24------------- 
+
+-------------Warn at 12/31/2018 00:04:26------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[WorldServer] Received Unknown PacketId : 127.0.0.1 -> 6 
+-------------Warn at 12/31/2018 00:04:26------------- 
+
+-------------Warn at 12/31/2018 00:04:26------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[WorldServer] Received Unknown PacketId : 127.0.0.1 -> 6 
+-------------Warn at 12/31/2018 00:04:26------------- 
+
+-------------Warn at 12/31/2018 00:04:31------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[WorldServer] Received Unknown PacketId : 127.0.0.1 -> 13 
+-------------Warn at 12/31/2018 00:04:31------------- 
+
+-------------Warn at 12/31/2018 00:04:31------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[WorldServer] Received Unknown PacketId : 127.0.0.1 -> 6 
+-------------Warn at 12/31/2018 00:04:31------------- 
+
+-------------Warn at 12/31/2018 00:04:37------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6006 
+-------------Warn at 12/31/2018 00:04:37------------- 
+
+-------------Warn at 12/31/2018 00:04:40------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[WorldServer] Received Unknown PacketId : 127.0.0.1 -> 3583 
+-------------Warn at 12/31/2018 00:04:40------------- 
+
+-------------Warn at 12/31/2018 00:05:25------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[WorldServer] Received Unknown PacketId : 127.0.0.1 -> 5 
+-------------Warn at 12/31/2018 00:05:25------------- 
+
+-------------Warn at 12/31/2018 00:05:52------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[WorldServer] Received Unknown PacketId : 127.0.0.1 -> 6 
+-------------Warn at 12/31/2018 00:05:52------------- 
+
+-------------Warn at 12/31/2018 00:06:00------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[WorldServer] Received Unknown PacketId : 127.0.0.1 -> 1592 
+-------------Warn at 12/31/2018 00:06:00------------- 
+
+-------------Warn at 12/31/2018 00:06:02------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[WorldServer] Received Unknown PacketId : 127.0.0.1 -> 1409 
+-------------Warn at 12/31/2018 00:06:02------------- 
+
+-------------Warn at 12/31/2018 00:06:46------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[WorldServer] Received Unknown PacketId : 127.0.0.1 -> 5 
+-------------Warn at 12/31/2018 00:06:46------------- 
+
+-------------Warn at 12/31/2018 00:06:54------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6006 
+-------------Warn at 12/31/2018 00:06:54------------- 
+
+-------------Warn at 12/31/2018 00:07:12------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[WorldServer] Received Unknown PacketId : 127.0.0.1 -> 13 
+-------------Warn at 12/31/2018 00:07:12------------- 
+
+-------------Warn at 12/31/2018 00:08:20------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6006 
+-------------Warn at 12/31/2018 00:08:20------------- 
+
+-------------Warn at 12/31/2018 00:08:36------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6006 
+-------------Warn at 12/31/2018 00:08:36------------- 
+
+-------------Warn at 12/31/2018 00:09:07------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[WorldServer] Received Unknown PacketId : 127.0.0.1 -> 5 
+-------------Warn at 12/31/2018 00:09:07------------- 
+
+-------------Warn at 12/31/2018 00:10:18------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[WorldServer] Received Unknown PacketId : 127.0.0.1 -> 8 
+-------------Warn at 12/31/2018 00:10:18------------- 
+
+-------------Warn at 12/31/2018 00:16:52------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[WorldServer] Received Unknown PacketId : 127.0.0.1 -> 11 
+-------------Warn at 12/31/2018 00:16:52------------- 
+
+-------------Warn at 12/31/2018 00:16:52------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[WorldServer] Received Unknown PacketId : 127.0.0.1 -> 5 
+-------------Warn at 12/31/2018 00:16:52------------- 
+
+-------------Warn at 12/31/2018 00:17:17------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6006 
+-------------Warn at 12/31/2018 00:17:17------------- 
+
+-------------Warn at 12/31/2018 00:17:19------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[WorldServer] Received Unknown PacketId : 127.0.0.1 -> 1759 
+-------------Warn at 12/31/2018 00:17:19------------- 
+
+-------------Warn at 12/31/2018 00:17:24------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6006 
+-------------Warn at 12/31/2018 00:17:24------------- 
+
+-------------Warn at 12/31/2018 00:17:37------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6006 
+-------------Warn at 12/31/2018 00:17:37------------- 
+
+-------------Warn at 12/31/2018 00:17:37------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[WorldServer] Received Unknown PacketId : 127.0.0.1 -> 2825 
+-------------Warn at 12/31/2018 00:17:37------------- 
+
+-------------Warn at 12/31/2018 00:18:09------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[RelayServer] Received Unknown PacketId : 127.0.0.1 -> 6006 
+-------------Warn at 12/31/2018 00:18:09------------- 
+
+-------------Warn at 12/31/2018 00:18:11------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[WorldServer] Received Unknown PacketId : 127.0.0.1 -> 11 
+-------------Warn at 12/31/2018 00:18:11------------- 
+
+-------------Warn at 12/31/2018 00:18:11------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	[WorldServer] Received Unknown PacketId : 127.0.0.1 -> 10 
+-------------Warn at 12/31/2018 00:18:11------------- 
+
+-------------Error at 12/31/2018 00:18:21------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	Message : Une connexion existante a d? ¨ºtre ferm¨¦e par l¡¯h?te distant 
+ StackTrace :    ¨¤ System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   ¨¤ Janus.Server.Network.SimpleClient.ReceiveCallBack(IAsyncResult asyncResult) dans D:\Projects\Github\Janus\Janus\Network\SimpleClient.cs:ligne 241 
+-------------Error at 12/31/2018 00:18:21------------- 
+
+-------------Error at 12/31/2018 00:18:21------------- 
+ Janus.Server.Network.SimpleClient.ReceiveCallBack -> 
+	Message : Une connexion existante a d? ¨ºtre ferm¨¦e par l¡¯h?te distant 
+ StackTrace :    ¨¤ System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   ¨¤ Janus.Server.Network.SimpleClient.ReceiveCallBack(IAsyncResult asyncResult) dans D:\Projects\Github\Janus\Janus\Network\SimpleClient.cs:ligne 241 
+-------------Error at 12/31/2018 00:18:21------------- 
+

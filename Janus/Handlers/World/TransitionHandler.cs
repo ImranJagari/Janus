@@ -55,7 +55,7 @@ namespace Janus.Handlers.World
         [PacketHandler(BS_CS_CHARACTER_TYPE_LIST.Id)]
         public static void HandleBM_CS_CHARACTER_TYPE_LIST(SimpleClient client, BS_CS_CHARACTER_TYPE_LIST message)
         {
-            client.Send(new BM_SC_CHARACTER_TYPE_LIST(5, new List<CharacterTypeInfoType>() { new CharacterTypeInfoType(0, 1), new CharacterTypeInfoType(1, 2), new CharacterTypeInfoType(2, 2), new CharacterTypeInfoType(3, 1), new CharacterTypeInfoType(4, 2) }));
+            client.Send(new BM_SC_CHARACTER_TYPE_LIST(6, new List<CharacterTypeInfoType>() { new CharacterTypeInfoType(0, 1), new CharacterTypeInfoType(1, 2), new CharacterTypeInfoType(2, 2), new CharacterTypeInfoType(3, 1), new CharacterTypeInfoType(4, 2), new CharacterTypeInfoType(5, 2) }));
         }
         [PacketHandler(BS_CS_CHARACTER_LIST.Id)]
         public static void HandleBS_CS_CHARACTER_LIST(SimpleClient client, BS_CS_CHARACTER_LIST message)
@@ -73,9 +73,9 @@ namespace Janus.Handlers.World
             else
             {
                 client.Account.Character = new Character(character, client);
-                client.Send(new BM_SC_CHARACTER_LIST(client.Character.Name, client.Character.Level, 1, new List<ListCharacterInfoType>() { client.Character.GetListCharacterInfoType() }));
+                client.Send(new BM_SC_CHARACTER_LIST(client.Character.Name, client.Character.Level, 6, new List<ListCharacterInfoType>() { new ListCharacterInfoType(1, 0, 1), new ListCharacterInfoType(1, 1, 1), new ListCharacterInfoType(1, 2, 1), new ListCharacterInfoType(1, 3, 1), new ListCharacterInfoType(1, 4, 1), new ListCharacterInfoType(1, 5, 1) }));
                 Thread.Sleep(4000);
-                client.Send(new BM_SC_CHARACTER_LIST2(client.Character.Name, 1, 1, new List<ListCharacterInfoType2>() { client.Character.GetListCharacterInfoType2() }));
+                client.Send(new BM_SC_CHARACTER_LIST2(client.Character.Name, 1, 6, new List<ListCharacterInfoType2>() { new ListCharacterInfoType2(0, 0, 0), new ListCharacterInfoType2(1, 1, 1), new ListCharacterInfoType2(2, 2, 2), new ListCharacterInfoType2(3, 3, 3), new ListCharacterInfoType2(4, 4, 4), new ListCharacterInfoType2(5, 5, 5) }));
                 //client.Send(new BM_SC_SELECT_CHARACTER());
             }
         }

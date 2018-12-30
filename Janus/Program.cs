@@ -13,7 +13,7 @@ namespace Janus
     {
         static void Main(string[] args)
         {
-            ConsoleUtils.ChangeTitle("Chronos 1.1.0");
+            ConsoleUtils.ChangeTitle("Janus 1.1.0");
 
             SimpleServer.DrawAscii();
 

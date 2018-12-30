@@ -67,7 +67,7 @@ namespace Janus.Handlers.World
         public static void HandleBM_SC_SPEEDSTAR_RECORD(SimpleClient client, BS_CS_SPEEDSTAR_RECORD message)
         {
             List<SpeedStarRecordType> recordTypes = new List<SpeedStarRecordType>();
-            client.Send(new BM_SC_SPEEDSTAR_RECORD(recordTypes.Populate(new SpeedStarRecordType(), 12)));
+            //client.Send(new BM_SC_SPEEDSTAR_RECORD(recordTypes.Populate(new SpeedStarRecordType(), 12)));
             //client.Send(new BM_SC_ROOM_INFO(0, 0, new List<RoomListInfoType>() { new RoomListInfoType(0, 0, DateTime.Now.GetUnixTimeStampLong(), 0, 0) }));
 
         }

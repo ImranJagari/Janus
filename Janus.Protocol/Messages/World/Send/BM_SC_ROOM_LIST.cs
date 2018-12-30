@@ -45,7 +45,7 @@ namespace Janus.Protocol.Messages.World.Send
             writer.WriteShort(unk0);
             writer.WriteShort(unk1);
 
-            foreach(RoomInfoType room in roomInfoTypes)
+            foreach (RoomInfoType room in roomInfoTypes)
             {
                 room.Serialize(writer);
             }

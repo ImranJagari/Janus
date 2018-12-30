@@ -12,6 +12,7 @@ using Janus.Server.Network;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -23,7 +24,7 @@ namespace Janus.Handlers.World
         [PacketHandler(BS_CS_ROOM_LIST.Id)]
         public static void HandleBS_CS_ROOM_LIST(SimpleClient client, BS_CS_ROOM_LIST message)
         {
-            client.Send(new BM_SC_ROOM_LIST(0, 0, SimpleServer.Rooms.Select(x => x.Value.GetRoomInfoType())));
+            client.Send(new BM_SC_ROOM_LIST(2, 3, SimpleServer.Rooms.Select(x => x.Value.GetRoomInfoType())));
         }
         [PacketHandler(BS_CS_CREATE_ROOM.Id)]
         [PacketHandler(BS_CS_CREATE_ROOM_SHORTCUT.Id)]
@@ -39,19 +40,36 @@ namespace Janus.Handlers.World
                     {
                         messageReceived.mode = (byte)new Random().Next(0, 3);
                     }
-                    
-                    Room room = new Room(id, "Let's go SG !", "", 8, RoomStateEnum.Opened, RankEnum.Pro, (RoomModeEnum)messageReceived.mode);
+
+                    switch ((RoomModeEnum)messageReceived.mode)
+                    {
+                        case RoomModeEnum.Item_Solo:
+                            messageReceived.mode = (byte)RoomModeListEnum.Item_Solo;
+                            break;
+                        case RoomModeEnum.Speed_Solo:
+                            messageReceived.mode = (byte)RoomModeListEnum.Speed_Solo;
+                            break;
+                        case RoomModeEnum.Item_Team:
+                            messageReceived.mode = (byte)RoomModeListEnum.Item_Team;
+                            break;
+                        case RoomModeEnum.Speed_Team:
+                            messageReceived.mode = (byte)RoomModeListEnum.Speed_Team;
+                            break;
+                    }
+
+                    Room room = new Room(id, "Let's go SG !", "", 8, RoomStateEnum.Opened, RankEnum.SpecialPro, (RoomModeListEnum)(messageReceived.mode));
                     SimpleServer.Rooms.Add(room.Id, room);
 
-                    byte team = room.Mode > RoomModeEnum.Vitesse_Solo ? (byte)new Random().Next(0, 1) : (byte)0;
+                    
+                    byte team = GetTeam(room.Mode);
 
                     var clients = SimpleServer.ConnectedClients.Where(x => x.Account != null && x.Character != null && x.Character.RoomConnected == null);
 
-                    clients.ForEach(x => x.Send(new BM_SC_ROOM_LIST(0, 0, SimpleServer.Rooms.Select(y => y.Value.GetRoomInfoType()))));
+                    clients.ForEach(x => x.Send(new BM_SC_ROOM_LIST(2, 3, SimpleServer.Rooms.Select(y => y.Value.GetRoomInfoType()))));
 
                     //Thread.Sleep(3000);
 
-                    //client.Send(new BM_SC_CREATE_ROOM("SUCCESS\0", room.Id, SimpleServer.RelayHost, SimpleServer.RelayPort, room.Mode > RoomModeEnum.Vitesse_Solo ? (byte)1 : (byte)0, 1, 5000));
+                    //client.Send(new BM_SC_CREATE_ROOM("SUCCESS\0", room.Id, SimpleServer.RelayHost, SimpleServer.RelayPort, team, 1, 5000));
                     //if (room.AddPlayer(client.Character))
                     //{
                     //    client.Send(new BM_SC_ENTER_ROOM("SUCCESS\0", SimpleServer.RelayHost, SimpleServer.RelayPort, team, 5, 5, 5, 5000));
@@ -84,10 +102,10 @@ namespace Janus.Handlers.World
                 int id = Room.GetRoomId();
                 if (id > 0)
                 {
-                    Room room = new Room(id, messageReceived.name, messageReceived.password, messageReceived.maxPlayers, RoomStateEnum.Opened, (RankEnum)messageReceived.rank, (RoomModeEnum)messageReceived.mode);
+                    Room room = new Room(id, messageReceived.name, messageReceived.password, messageReceived.maxPlayers, RoomStateEnum.Opened, (RankEnum)messageReceived.rank, (RoomModeListEnum)messageReceived.mode);
                     SimpleServer.Rooms.Add(room.Id, room);
 
-                    byte team = room.Mode > RoomModeEnum.Vitesse_Solo ? (byte)new Random().Next(0, 1) : (byte)0;
+                    byte team = GetTeam(room.Mode);
 
                     var clients = SimpleServer.ConnectedClients.Where(x => x.Account != null && x.Character != null && x.Character.RoomConnected == null);
 
@@ -95,7 +113,7 @@ namespace Janus.Handlers.World
 
                     //Thread.Sleep(3000);
 
-                    //client.Send(new BM_SC_CREATE_ROOM("SUCCESS\0", room.Id, SimpleServer.RelayHost, SimpleServer.RelayPort, room.Mode > RoomModeEnum.Vitesse_Solo ? (byte)1 : (byte)0, 1, 5000));
+                    //client.Send(new BM_SC_CREATE_ROOM("SUCCESS\0", room.Id, SimpleServer.RelayHost, SimpleServer.RelayPort, room.Mode > RoomModeEnum.Speed_Solo ? (byte)1 : (byte)0, 1, 5000));
                     //if (room.AddPlayer(client.Character))
                     //{
                     //    client.Send(new BM_SC_ENTER_ROOM("SUCCESS\0", SimpleServer.RelayHost, SimpleServer.RelayPort, team, 5, 5, 5, 5000));
@@ -131,7 +149,7 @@ namespace Janus.Handlers.World
 
             if(room != null)
             {
-                byte team = room.Mode > RoomModeEnum.Vitesse_Solo ? (byte)new Random().Next(0, 1) : (byte)0;
+                byte team = GetTeam(room.Mode);
 
                 if (room.AddPlayer(client.Character))
                 {
@@ -167,7 +185,7 @@ namespace Janus.Handlers.World
                     client.Send(new BM_SC_SELECT_MAP());
                     client.Send(new BM_SC_MAP_INFO(room.MapId));
 
-                    client.Send(new BM_SC_ROOM_INFO2(room.Name, room.MapId, room.MapId, 1));
+                    client.Send(new BM_SC_ROOM_INFO2(room.Name, (int)room.Mode, room.MapId, 1));
                    
                 }
                 else
@@ -258,14 +276,16 @@ namespace Janus.Handlers.World
         [PacketHandler(BS_CS_LEAVE_ROOM.Id)]
         public static void HandleBS_CS_LEAVE_ROOM(SimpleClient client, BS_CS_LEAVE_ROOM message)
         {
-            //client.Send(new BM_SC_LEAVE_ROOM());
+            client.Send(new BM_SC_LEAVE_ROOM());
+            client.Character.RoomConnected.RemovePlayer(client.Character);
+            client.Character.RoomConnected = null;
         }
         [PacketHandler(BS_CS_END_GAME.Id)]//2191
         public static void HandleBS_CS_END_GAME(SimpleClient client, BS_CS_END_GAME message)
         {
             client.Send(new BM_SC_END_GAME());
 
-            Thread.Sleep(5000);
+            Thread.Sleep(10000);
             //client.Send(new BM_SC_LEAVE_ROOM());
             //Thread.Sleep(3000);
             var room = client.Character.RoomConnected;
@@ -294,6 +314,15 @@ namespace Janus.Handlers.World
         public static void HandleBS_CS_FINISH_LAP(SimpleClient client, BS_CS_FINISH_LAP message)
         {
             //client.Send(new BM_SC_FINISH_LAP());
+        }
+
+        public static byte GetTeam(RoomModeListEnum roomMode)
+        {
+            return  roomMode == RoomModeListEnum.Speed_Team
+                               || roomMode == RoomModeListEnum.Item_Team
+                               || roomMode == RoomModeListEnum.Item_Team_private
+                               || roomMode == RoomModeListEnum.Speed_Team_private
+                ? (byte)new Random().Next(0, 1) : (byte)0;
         }
     }
 }
