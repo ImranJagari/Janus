@@ -1,0 +1,11 @@
+D:\Projects\Github\Janus\Janus.Protocol\obj\Release\Janus.Protocol.csproj.CoreCompileInputs.cache
+D:\Projects\Github\Janus\Janus.Protocol\obj\Release\Janus.Protocol.csprojAssemblyReference.cache
+D:\Projects\Github\Janus\Janus.Protocol\bin\Release\Janus.Protocol.dll
+D:\Projects\Github\Janus\Janus.Protocol\bin\Release\Janus.Protocol.pdb
+D:\Projects\Github\Janus\Janus.Protocol\bin\Release\Janus.Core.dll
+D:\Projects\Github\Janus\Janus.Protocol\bin\Release\NLog.dll
+D:\Projects\Github\Janus\Janus.Protocol\bin\Release\Janus.Core.pdb
+D:\Projects\Github\Janus\Janus.Protocol\bin\Release\NLog.xml
+D:\Projects\Github\Janus\Janus.Protocol\obj\Release\Janus.Protocol.csproj.CopyComplete
+D:\Projects\Github\Janus\Janus.Protocol\obj\Release\Janus.Protocol.dll
+D:\Projects\Github\Janus\Janus.Protocol\obj\Release\Janus.Protocol.pdb

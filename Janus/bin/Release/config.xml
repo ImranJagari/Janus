@@ -1,0 +1,68 @@
+﻿<Configuration>
+  <Janus>
+    <Server>
+      <Network>
+        <SimpleServer>
+          <!--Editable as Running : False-->
+          <Variable name="ServerId" serialized="false">27</Variable>
+          <!--Editable as Running : False-->
+          <Variable name="AuthHost" serialized="false">127.0.0.1</Variable>
+          <!--Editable as Running : False-->
+          <Variable name="AuthPort" serialized="false">442</Variable>
+          <!--Editable as Running : False-->
+          <Variable name="WorldHost" serialized="false">127.0.0.1</Variable>
+          <!--Editable as Running : False-->
+          <Variable name="WorldPort" serialized="false">590</Variable>
+          <!--Editable as Running : False-->
+          <Variable name="MsgHost" serialized="false">127.0.0.1</Variable>
+          <!--Editable as Running : False-->
+          <Variable name="MsgPort" serialized="false">569</Variable>
+          <!--Editable as Running : False-->
+          <Variable name="LobbyHost" serialized="false">127.0.0.1</Variable>
+          <!--Editable as Running : False-->
+          <Variable name="LobbyPort" serialized="false">546</Variable>
+          <!--Editable as Running : False-->
+          <Variable name="RelayHost" serialized="false">127.0.0.1</Variable>
+          <!--Editable as Running : False-->
+          <Variable name="RelayPort" serialized="false">86</Variable>
+          <!--Editable as Running : False-->
+          <Variable name="P2PHost" serialized="false">127.0.0.1</Variable>
+          <!--Editable as Running : False-->
+          <Variable name="P2PPort" serialized="false">90</Variable>
+          <!--Editable as Running : False-->
+          <Variable name="DatabaseConfiguration" serialized="true">
+            <DatabaseConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <User>root</User>
+              <Password />
+              <DbName>janus</DbName>
+              <Host>localhost</Host>
+              <ProviderName>MySql.Data.MySqlClient</ProviderName>
+            </DatabaseConfiguration>
+          </Variable>
+          <!--Editable as Running : False-->
+          <Variable name="PacketsSkipToShow" serialized="true">
+            <ArrayOfInt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <int>2017</int>
+              <int>2019</int>
+              <int>2015</int>
+            </ArrayOfInt>
+          </Variable>
+        </SimpleServer>
+        <VersionExtension>
+          <!--Editable as Running : True-->
+          <Variable name="Severity" serialized="true">
+            <VersionCheckingSeverity>Light</VersionCheckingSeverity>
+          </Variable>
+          <!--Editable as Running : True-->
+          <Variable name="ExpectedVersion" serialized="true">
+            <VersionExtended xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <Major>2</Major>
+              <Minor>2</Minor>
+              <Build>2</Build>
+            </VersionExtended>
+          </Variable>
+        </VersionExtension>
+      </Network>
+    </Server>
+  </Janus>
+</Configuration>

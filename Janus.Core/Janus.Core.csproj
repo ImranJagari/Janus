@@ -73,7 +73,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Attributes\VariableAttribute.cs" />
-    <Compile Include="Encryption\FlyffEncryption.cs" />
     <Compile Include="Extensions\CollectionExtensions.cs" />
     <Compile Include="Extensions\FileSizeFormatProvider.cs" />
     <Compile Include="Extensions\FormatterExtensions.cs" />

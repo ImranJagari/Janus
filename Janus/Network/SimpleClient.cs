@@ -1,5 +1,4 @@
-﻿using Janus.Core.Encryption;
-using Janus.Core.IO;
+﻿using Janus.Core.IO;
 using Janus.Core.Utils;
 using Janus.Game.Accounts;
 using Janus.Game.Characters;
@@ -16,6 +15,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
+using Janus.Server.Manager;
 
 namespace Janus.Server.Network
 {
@@ -112,7 +112,7 @@ namespace Janus.Server.Network
             byte[] data = writer.Data;
            
             Send(writer.Data);
-            // Console.WriteLine(string.Format("[SND] {0} -> {1}", IP, message));
+             Console.WriteLine(string.Format("[SND] {0} -> {1}", IP, message));
         }
         public void Send(byte[] data)
         {
@@ -211,6 +211,7 @@ namespace Janus.Server.Network
                 Socket client = (Socket)asyncResult.AsyncState;
 
                 this.Character?.LogOut(this);
+                DatabaseManager.DefaultDatabase.Update(this.Character?.Record);
 
                 client.EndDisconnect(asyncResult);
                 OnDisconnected(new DisconnectedEventArgs(Socket));

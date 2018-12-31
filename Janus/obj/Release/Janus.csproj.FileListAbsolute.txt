@@ -1,0 +1,16 @@
+D:\Projects\Github\Janus\Janus\obj\Release\Janus.csprojAssemblyReference.cache
+D:\Projects\Github\Janus\Janus\obj\Release\Janus.csproj.CoreCompileInputs.cache
+D:\Projects\Github\Janus\Janus\bin\Release\Janus.exe.config
+D:\Projects\Github\Janus\Janus\bin\Release\Janus.exe
+D:\Projects\Github\Janus\Janus\bin\Release\Janus.pdb
+D:\Projects\Github\Janus\Janus\bin\Release\Janus.Core.dll
+D:\Projects\Github\Janus\Janus\bin\Release\Janus.ORM.dll
+D:\Projects\Github\Janus\Janus\bin\Release\Janus.Protocol.dll
+D:\Projects\Github\Janus\Janus\bin\Release\NLog.dll
+D:\Projects\Github\Janus\Janus\bin\Release\Janus.Core.pdb
+D:\Projects\Github\Janus\Janus\bin\Release\Janus.ORM.pdb
+D:\Projects\Github\Janus\Janus\bin\Release\Janus.Protocol.pdb
+D:\Projects\Github\Janus\Janus\bin\Release\NLog.xml
+D:\Projects\Github\Janus\Janus\obj\Release\Janus.csproj.CopyComplete
+D:\Projects\Github\Janus\Janus\obj\Release\Janus.exe
+D:\Projects\Github\Janus\Janus\obj\Release\Janus.pdb

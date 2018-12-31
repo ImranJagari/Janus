@@ -114,6 +114,7 @@
     <Compile Include="Messages\World\Receive\BS_CS_CREATE_ROOM_SHORTCUT.cs" />
     <Compile Include="Messages\World\Receive\BS_CS_ENTER_ROOM.cs" />
     <Compile Include="Messages\World\Receive\BS_CS_IP_CONNECT.cs" />
+    <Compile Include="Messages\World\Receive\BS_CS_LIST_CHARACTERS.cs" />
     <Compile Include="Messages\World\Receive\BS_CS_MMO_TICK_MESSAGE.cs" />
     <Compile Include="Messages\World\Receive\BS_CS_PLAYER_DISGUISE.cs" />
     <Compile Include="Messages\World\Receive\BS_CS_PLAYER_READY.cs" />

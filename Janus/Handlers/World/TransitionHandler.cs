@@ -73,17 +73,29 @@ namespace Janus.Handlers.World
             else
             {
                 client.Account.Character = new Character(character, client);
-                client.Send(new BM_SC_CHARACTER_LIST(client.Character.Name, client.Character.Level, 6, new List<ListCharacterInfoType>() { new ListCharacterInfoType(1, 0, 1), new ListCharacterInfoType(1, 1, 1), new ListCharacterInfoType(1, 2, 1), new ListCharacterInfoType(1, 3, 1), new ListCharacterInfoType(1, 4, 1), new ListCharacterInfoType(1, 5, 1) }));
+                client.Send(new BM_SC_CHARACTER_LIST(client.Character.Name, 0, 1, new List<ListCharacterInfoType>() { new ListCharacterInfoType(0, 0, 0)/*, new ListCharacterInfoType(0, 1, 0), new ListCharacterInfoType(0, 2, 0), new ListCharacterInfoType(0, 3, 0), new ListCharacterInfoType(0, 4, 0), new ListCharacterInfoType(0, 5, 0) */}));
                 Thread.Sleep(4000);
-                client.Send(new BM_SC_CHARACTER_LIST2(client.Character.Name, 1, 6, new List<ListCharacterInfoType2>() { new ListCharacterInfoType2(0, 0, 0), new ListCharacterInfoType2(1, 1, 1), new ListCharacterInfoType2(2, 2, 2), new ListCharacterInfoType2(3, 3, 3), new ListCharacterInfoType2(4, 4, 4), new ListCharacterInfoType2(5, 5, 5) }));
+                client.Send(new BM_SC_CHARACTER_LIST2(client.Character.Name, (short)client.Character.Type, 6, new List<ListCharacterInfoType2>() { new ListCharacterInfoType2(0, 0, 0), new ListCharacterInfoType2(1, 1, 1), new ListCharacterInfoType2(2, 2, 2), new ListCharacterInfoType2(3, 3, 3), new ListCharacterInfoType2(4, 4, 4), new ListCharacterInfoType2(5, 5, 5) }));
                 //client.Send(new BM_SC_SELECT_CHARACTER());
             }
         }
+
+        //[PacketHandler(BS_CS_LIST_CHARACTERS.Id)]
+        //public static void HandleBS_CS_LIST_CHARACTERS(SimpleClient client, BS_CS_LIST_CHARACTERS message)
+        //{
+        //    client.Send(new BM_SC_CHARACTER_LIST2(client.Character.Name, 1, 6, new List<ListCharacterInfoType2>() { new ListCharacterInfoType2(0, 0, 0), new ListCharacterInfoType2(1, 1, 0), new ListCharacterInfoType2(2, 2, 0), new ListCharacterInfoType2(3, 3, 0), new ListCharacterInfoType2(4, 4, 0), new ListCharacterInfoType2(5, 5, 0) }));
+        //}
 
         [PacketHandler(BS_CS_SELECT_CHARACTER.Id)]
         public static void HandleBS_CS_SELECT_CHARACTER(SimpleClient client, BS_CS_SELECT_CHARACTER message)
         {
             client.Send(new BM_SC_SELECT_CHARACTER());
+
+            client.Character.Type = message.charType;
+
+            client.Send(new BM_SC_CHARACTER_INFO(client.Character.Name, (byte)client.Character.Type,
+                (byte)client.Character.Type, 0, client.Character.Level, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+                client.Character.GetTricks()));
         }
         [PacketHandler(BS_CS_PLAYER_INFO.Id)]
         public static void HandleBS_CS_PLAYER_INFO(SimpleClient client, BS_CS_PLAYER_INFO message)

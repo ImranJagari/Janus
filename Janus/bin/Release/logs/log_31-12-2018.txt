@@ -1,0 +1,6 @@
+[Info] <12/31/2018 00:55:26> Initializing Configuration !
+[Info] <12/31/2018 00:55:28> Config file created !
+[Info] <12/31/2018 00:55:28> Loading protocol messages !
+[Info] <12/31/2018 00:55:28> Loading handlers !
+[Info] <12/31/2018 00:55:28> Loading Database !
+[Info] <12/31/2018 00:55:28> Loading database features !

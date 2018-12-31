@@ -12,6 +12,7 @@ namespace Janus.Protocol.Messages.World.Receive
     {
         public const ushort Id = 2066;
 
+        public int charType;
         
         public override ushort MessageId => Id;
 
@@ -19,6 +20,7 @@ namespace Janus.Protocol.Messages.World.Receive
 
         public override void Deserialize(IDataReader reader)
         {
+            charType = reader.ReadByte();
         }
 
         public override void Serialize(IDataWriter writer)

@@ -1,4 +1,3 @@
-using Janus.Core.Encryption;
 using Janus.Core.IO;
 using System;
 namespace Janus.Protocol
